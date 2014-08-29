@@ -23,13 +23,14 @@ $config['database.name'] = 'db_name';
 $configuration = new Configuration($config);
 
 var_dump($configuration->get('database.username'));
-// returns 'db_username'
+// outputs:
+// string (11) 'db_username'
 
 var_dump($configuration->get('database'));
-// returns
+// outputs:
 // array(3) [
-//  'username' => 'db_username',
-//  'password' => 'db_password',
-//  'name' => 'db_name'
+//      'username' => 'db_username',
+//      'password' => 'db_password',
+//      'name'     => 'db_name'
 // ]
 ```
