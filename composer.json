@@ -1,0 +1,27 @@
+{
+    "name": "cbc/configuration",
+    "type": "library",
+    "description": "Provides a simple configuration utility.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cameron Condry",
+            "email": "ccondry2@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CBC\\Utility\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "keywords": [
+        "configuration",
+        "dot notation"
+    ]
+}

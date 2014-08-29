@@ -1,0 +1,9 @@
+# PHPStorm Files
+.idea
+
+# Composer dependencies
+vendor
+bin
+
+# OSX
+.DS_STORE
